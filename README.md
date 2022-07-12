@@ -85,3 +85,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     2. Install mongoose
     3. Define connect and disconnect
     4. Use it in the api
+13. Create Products API
+    1. Create product model
+    2. Seed sample data
+    3. Create/api/products/index.js
+    4. Create product api
