@@ -80,3 +80,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     2. Set darkMode flag
     3. Create store provider
     4. Use it on layout
+12. Connect to MongoDB
+    1. Install mongodb
+    2. Install mongoose
+    3. Define connect and disconnect
+    4. Use it in the api
