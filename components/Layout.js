@@ -15,9 +15,9 @@ export default function Layout({ children }) {
           <Typography>Amazona</Typography>
         </Toolbar>
       </AppBar>
-      <Container>{children}</Container>
-      <footer>
-        <Typography>All rights reserved. Next Amazona.</Typography>
+      <Container className={classes.main}>{children}</Container>
+      <footer className={classes.footer}>
+        <Typography>All rights reserved. М.Мөнхдаваа.</Typography>
       </footer>
     </div>
   );
