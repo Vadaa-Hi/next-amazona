@@ -32,4 +32,36 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# next-amazona" 
+"# next-amazona"
+
+3. Create Next App
+
+   1. npx create-next-app
+   2. add layout component
+   3. add header, main and footer
+
+4. Add Styles
+   1.Add css to header, main and footer
+
+5. Fix styles
+
+   1. Add \_documents.js
+   2. Add code to fix styling issue
+
+6. List Products
+
+   1. Add data.js
+   2. Add images
+   3. Render products
+
+7. Add header links
+   1. Add cart and login link
+   2. use next/link and mui/link
+   3. Add css classes for header links
+8. Create Product Details Page
+   1. Create 3 columns
+   2. Show image in first column
+   3. Show product info in second column
+   4. Show add to cart action on third column
+   5. add styles
+      59.26
