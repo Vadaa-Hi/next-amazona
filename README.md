@@ -70,3 +70,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
    3. Show product info in second column
    4. Show add to cart action on third column
    5. Add styles
+10. Add MaterialUI Theme
+11. Create theme
+12. Use theme provider
+13. Add h1 and h2 styles
+14. Set theme colors
