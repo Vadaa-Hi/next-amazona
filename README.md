@@ -71,7 +71,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
    4. Show add to cart action on third column
    5. Add styles
 10. Add MaterialUI Theme
-11. Create theme
-12. Use theme provider
-13. Add h1 and h2 styles
-14. Set theme colors
+    10 1. Create theme
+    10 2. Use theme provider
+    10 3. Add h1 and h2 styles
+    10 4. Set theme colors
+11. Create Application Context
+    1. Define context and reducer
+    2. Set darkMode flag
+    3. Create store provider
+    4. Use it on layout
