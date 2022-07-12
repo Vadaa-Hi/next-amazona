@@ -64,4 +64,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
    3. Show product info in second column
    4. Show add to cart action on third column
    5. add styles
-      59.26
+9. Create Product Details Page
+   1. Create 3 columns
+   2. Show image in first column
+   3. Show product info in second column
+   4. Show add to cart action on third column
+   5. Add styles
