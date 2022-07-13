@@ -95,3 +95,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     2. Get product from db
     3. Return data as props
     4. Use it in product screen too
+15. Implement Add to cart
+    15 1. Define cart in context
+    15 2. Dispatch add to cart action
+    15 3. Set click event handler for button
