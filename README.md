@@ -102,3 +102,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 16. Convert Cart Screen To Dynamic Component
     16 1. Use next/dynamic
     16 2. Wrap cart in dynamic without ssr
+17. Update Remove Items In Cart
+    1. Implement onChange for select
+    2. Show notification by notistack
+    3. Implement delete button handler
