@@ -99,3 +99,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     15 1. Define cart in context
     15 2. Dispatch add to cart action
     15 3. Set click event handler for button
+16. Convert Cart Screen To Dynamic Component
+    16 1. Use next/dynamic
+    16 2. Wrap cart in dynamic without ssr

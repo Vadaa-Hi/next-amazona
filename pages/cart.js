@@ -20,8 +20,9 @@ import {
   ListItem,
 } from '@material-ui/core';
 import Image from 'next/image';
+import dynamic from 'next/dynamic';
 
-export default function CartScreen() {
+function CartScreen() {
   const { state } = useContext(Store);
   const {
     cart: { cartItems },
@@ -105,7 +106,7 @@ export default function CartScreen() {
                   </Typography>
                 </ListItem>
                 <ListItem>
-                  <Button varient="contained" color="primary" fullWidth>
+                  <Button variant="contained" color="primary" fullWidth>
                     Check Out
                   </Button>
                 </ListItem>
@@ -117,3 +118,4 @@ export default function CartScreen() {
     </Layout>
   );
 }
+export default dynamic(() => Promise.resolve(CartScreen), { ssr: false });
