@@ -116,3 +116,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     2. Add email and password field
     3. Add login button
     4. Style form
+20. Create Sample Users
+    1. Create user model
+    2. Add sample user in seed api
