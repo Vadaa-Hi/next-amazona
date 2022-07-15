@@ -119,3 +119,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 20. Create Sample Users
     1. Create user model
     2. Add sample user in seed api
+21. Build Login API
+    1. Use jsonwebtoken to sign token
+    2. Implement login API
