@@ -122,3 +122,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 21. Build Login API
     1. Use jsonwebtoken to sign token
     2. Implement login API
+22. Complete Login Screen
+    1. Handle form submission
+    2. Add userInfo to context
+    3. Save userInfo in cookies
+    4. Show user name in nav bar using menu
