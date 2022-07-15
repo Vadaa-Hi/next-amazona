@@ -99,10 +99,20 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     15 1. Define cart in context
     15 2. Dispatch add to cart action
     15 3. Set click event handler for button
-16. Convert Cart Screen To Dynamic Component
+16. Create Cart Screen
+    1. Create cart.js
+    2. Redirect to cart screen
+    3. Use context to get cart items
+    4. List items in cart items
+17. Convert Cart Screen To Dynamic Component
     16 1. Use next/dynamic
     16 2. Wrap cart in dynamic without ssr
-17. Update Remove Items In Cart
+18. Update Remove Items In Cart
     1. Implement onChange for select
     2. Show notification by notistack
     3. Implement delete button handler
+19. Create Login Screen
+    1. Create form
+    2. Add email and password field
+    3. Add login button
+    4. Style form
