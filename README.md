@@ -135,3 +135,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     1. Install react-hoo-form
     2. Change input to controller
     3. Use notistack to show errors
+25. Create Shipping Page
+    1. Create form
+    2. Add address fields
+    3. Save in Contect and Cookies
