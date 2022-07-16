@@ -127,3 +127,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     2. Add userInfo to context
     3. Save userInfo in cookies
     4. Show user name in nav bar using menu
+23. Create Register Page
+    1. Create form
+    2. Implement backend API
+    3. Redirect user to redirect page
