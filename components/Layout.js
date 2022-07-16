@@ -6,7 +6,7 @@ import {
   Toolbar,
   Typography,
   Link,
-  createTheme,
+  createMuiTheme,
   ThemeProvider,
   CssBaseline,
   Switch,
@@ -25,7 +25,7 @@ export default function Layout({ title, description, children }) {
   const router = useRouter();
   const { state, dispatch } = useContext(Store);
   const { darkMode, cart, userInfo } = state;
-  const theme = createTheme({
+  const theme = createMuiTheme({
     typography: {
       h1: {
         fontSize: '1.6rem',
@@ -64,8 +64,8 @@ export default function Layout({ title, description, children }) {
   const logoutClickHandler = () => {
     setAnchorEl(null);
     dispatch({ type: 'USER_LOGOUT' });
-    Cookies.removeI('userInfo');
-    Cookies.removeI('cartItems');
+    Cookies.remove('userInfo');
+    Cookies.remove('cartItems');
     router.push('/');
   };
   return (
