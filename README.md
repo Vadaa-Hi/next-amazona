@@ -34,12 +34,19 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 "# next-amazona"
 
+1. Introduction
+   1. What you will learn
+   2. What you will build
+   3. What Packages you will use
+2. Install Tools
+   1. VS code
+   2. Chrome
+   3. Node.js
+   4. MongoDB
 3. Create Next App
-
    1. npx create-next-app
    2. add layout component
    3. add header, main and footer
-
 4. Add Styles
    1.Add css to header, main and footer
 
@@ -147,3 +154,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     1. Display order info
     2. Show order summary
     3. Add place order button
+28. Implement Place Order Action
+    1. Create click handler
+    2. Send ajax request
+    3. Clear cart
+    4. Redirect to roder screen
+    5. Create backend API
