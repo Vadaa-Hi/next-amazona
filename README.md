@@ -139,3 +139,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     1. Create form
     2. Add address fields
     3. Save in Contect and Cookies
+26. Create Payment Page
+    1. Create form
+    2. Add radio button
+    3. Save method in context
