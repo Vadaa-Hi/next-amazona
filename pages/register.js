@@ -1,11 +1,4 @@
-import {
-  List,
-  ListItem,
-  TextField,
-  Typography,
-  Button,
-  Link,
-} from '@material-ui/core';
+import { List, ListItem, TextField, Button, Link } from '@material-ui/core';
 import React, { useContext, useEffect } from 'react';
 import Layout from '../components/Layout';
 import useStyles from '../utils/styles';
@@ -16,6 +9,7 @@ import { useRouter } from 'next/router';
 import Cookies from 'js-cookie';
 import { Controller, useForm } from 'react-hook-form';
 import { useSnackbar } from 'notistack';
+import { getError } from '../utils/error';
 
 export default function Register() {
   const {
@@ -51,18 +45,12 @@ export default function Register() {
       Cookies.set('userInfo', data);
       router.push(redirect || '/');
     } catch (err) {
-      enqueueSnackbar(
-        err.response.data ? err.response.data.message : err.message,
-        { variant: 'error' }
-      );
+      enqueueSnackbar(getError(err), { variant: 'error' });
     }
   };
   return (
     <Layout title="Register">
       <form className={classes.form} onSubmit={handleSubmit(submitHandler)}>
-        <Typography component="h1" variant="h1">
-          Register
-        </Typography>
         <List>
           <ListItem>
             <Controller
@@ -153,7 +141,7 @@ export default function Register() {
           </ListItem>
           <ListItem>
             <Controller
-              name="confirmpassword"
+              name="confirmPassword"
               control={control}
               defaultValue=""
               rules={{
@@ -164,13 +152,13 @@ export default function Register() {
                 <TextField
                   variant="outlined"
                   fullWidth
-                  id="confirmpassword"
+                  id="confirmPassword"
                   label="Confirm Password"
                   inputProps={{ type: 'password' }}
                   error={Boolean(errors.confirmpassword)}
                   helperText={
-                    errors.confirmpassword
-                      ? errors.confirmpassword.type === 'minLength'
+                    errors.confirmPassword
+                      ? errors.confirmPassword.type === 'minLength'
                         ? 'Confirm Password length is more than 5'
                         : 'Confirm Password is required'
                       : ''

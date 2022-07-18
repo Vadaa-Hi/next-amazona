@@ -171,3 +171,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 31. Display Orders History
     1. Create orders API
     2. Show orders in profile screen
+32. Update User Profile
+    1. Create profile screen
+    2. Create update profile API
