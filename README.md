@@ -160,3 +160,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     3. Clear cart
     4. Redirect to roder screen
     5. Create backend API
+29. Create Order Details Page
+    1. Create API to order info
+    2. Create payment, shipping ant items
+    3. Create order summary
